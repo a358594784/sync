@@ -1,0 +1,72 @@
+{
+  "rewrite": {
+    "note": "elecV2P 重写规则",
+    "date": "2021-12-18 21:46:51",
+    "total": 10,
+    "active": 10,
+    "enable": true,
+    "list": [
+      {
+        "match": "https://kandian.wkandian.com/v5/article/info.json",
+        "stage": "res",
+        "target": "zqwz.js",
+        "enable": true
+      },
+      {
+        "match": "https://kandian.wkandian.com/v5/article/detail.json",
+        "stage": "res",
+        "target": "zqwz.js",
+        "enable": true
+      },
+      {
+        "match": "https://kandian.wkandian.com/v5/user/stay.json",
+        "stage": "res",
+        "target": "zqwz.js",
+        "enable": true
+      },
+      {
+        "match": "https://kandian.wkandian.com/v5/CommonReward/toGetReward.json",
+        "stage": "res",
+        "target": "zqqd.js",
+        "enable": true
+      },
+      {
+        "match": "https://kandian.wkandian.com/v17/NewTask/getTaskList.json",
+        "stage": "res",
+        "target": "zq_today_score.js",
+        "enable": true
+      },
+      {
+        "match": "https://kandian.wkandian.com/v5/nameless/adlickstart.json",
+        "stage": "res",
+        "target": "zqkkz.js",
+        "enable": true
+      },
+      {
+        "match": "https://kandian.wkandian.com/v5/CommonReward/toGetReward.json",
+        "stage": "res",
+        "target": "zqbox.js",
+        "enable": true
+      },
+      {
+        "match": "https://kandian.wkandian.com/v5/wechat/withdraw2.json",
+        "stage": "res",
+        "target": "zq_withdraw.js",
+        "enable": true
+      },
+      {
+        "match": "https://kandian.wkandian.com/v5/task/browse_start.json",
+        "stage": "res",
+        "target": "zqllz.js",
+        "enable": true
+      },
+      {
+        "match": "https://kandian.wkandian.com/v5/Sousuo/playStart.json",
+        "stage": "res",
+        "target": "zqssz.js",
+        "enable": true
+      }
+    ]
+  },
+  "rewritesub": {}
+}
