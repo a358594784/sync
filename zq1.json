@@ -1,6 +1,6 @@
 {
-  "name": "elecV2P 重写订阅",
-  "author": "留个名字 elecV2",
+  "name": "中青第一账号的重新写",
+  "author": "余温",
   "note": "xx 导出的重写规则。该订阅目前仅适用于 elecV2P。更多说明请查看: https://github.com/elecV2/elecV2P-dei/tree/master/docs/05-rewrite.md",
   "date": "2021-12-18 21:52:14",
   "type": "rewrite",
