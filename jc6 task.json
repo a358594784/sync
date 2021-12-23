@@ -1,0 +1,109 @@
+{
+  "name": "晶彩2 定时任务订阅",
+  "author": "留个名字",
+  "note": "第6账号的晶彩",
+  "date": "2021-12-18 22:26:08",
+  "type": "task",
+  "list": [
+    {
+      "name": "晶彩签到6",
+      "type": "cron",
+      "time": "15 2 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jcqd6.js"
+      }
+    },
+    {
+      "name": "晶彩文章6",
+      "type": "cron",
+      "time": "30 7,12,18 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jcwz6.js"
+      }
+    },
+    {
+      "name": "晶彩看看赚6",
+      "type": "cron",
+      "time": "45 9 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jckkz6.js"
+      }
+    },
+    {
+      "name": "晶彩火爆转发6",
+      "type": "cron",
+      "time": "15 6,12,18 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_share6.js"
+      }
+    },
+    {
+      "name": "晶彩福利视频6",
+      "type": "cron",
+      "time": "20 21 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_Adv_video6.js"
+      }
+    },
+    {
+      "name": "晶彩每日任务宝箱领取6",
+      "type": "cron",
+      "time": "15 22 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jcbox6.js"
+      }
+    },
+    {
+      "name": "晶彩好友签到红包6",
+      "type": "cron",
+      "time": "15 7 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_friendSign6.js"
+      }
+    },
+    {
+      "name": "晶彩抽奖6",
+      "type": "cron",
+      "time": "34 22 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_Rotary6.js"
+      }
+    },
+    {
+      "name": "晶彩提现6",
+      "type": "cron",
+      "time": "34 10 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_withdraw6.js"
+      }
+    },
+    {
+      "name": "晶彩每日收益统计",
+      "type": "cron",
+      "time": "15 23 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_today_score6.js"
+      }
+    }
+  ]
+}

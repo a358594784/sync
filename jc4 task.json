@@ -1,0 +1,109 @@
+{
+  "name": "晶彩2 定时任务订阅",
+  "author": "留个名字",
+  "note": "第二账号的晶彩",
+  "date": "2021-12-18 22:26:08",
+  "type": "task",
+  "list": [
+    {
+      "name": "晶彩签到4",
+      "type": "cron",
+      "time": "15 2 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jcqd4.js"
+      }
+    },
+    {
+      "name": "晶彩文章4",
+      "type": "cron",
+      "time": "30 7,12,18 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jcwz4.js"
+      }
+    },
+    {
+      "name": "晶彩看看赚4",
+      "type": "cron",
+      "time": "45 9 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jckkz4.js"
+      }
+    },
+    {
+      "name": "晶彩火爆转发4",
+      "type": "cron",
+      "time": "15 6,12,18 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_share4.js"
+      }
+    },
+    {
+      "name": "晶彩福利视频4",
+      "type": "cron",
+      "time": "20 21 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_Adv_video4.js"
+      }
+    },
+    {
+      "name": "晶彩每日任务宝箱领取4",
+      "type": "cron",
+      "time": "15 22 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jcbox4.js"
+      }
+    },
+    {
+      "name": "晶彩好友签到红包4",
+      "type": "cron",
+      "time": "15 7 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_friendSign4.js"
+      }
+    },
+    {
+      "name": "晶彩抽奖4",
+      "type": "cron",
+      "time": "34 22 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_Rotary4.js"
+      }
+    },
+    {
+      "name": "晶彩提现4",
+      "type": "cron",
+      "time": "34 10 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_withdraw4.js"
+      }
+    },
+    {
+      "name": "晶彩每日收益统计",
+      "type": "cron",
+      "time": "15 23 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_today_score4.js"
+      }
+    }
+  ]
+}
