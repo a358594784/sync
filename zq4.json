@@ -1,0 +1,71 @@
+{
+  "name": "elecV2P 重写订阅",
+  "author": "留个名字 elecV2",
+  "note": "xx 导出的重写规则。该订阅目前仅适用于 elecV2P。更多说明请查看: https://github.com/elecV2/elecV2P-dei/tree/master/docs/05-rewrite.md",
+  "date": "2021-12-23 17:31:55",
+  "type": "rewrite",
+  "resource": "订阅更新远程链接（待填写",
+  "mitmhost": [],
+  "list": [
+    {
+      "match": "https://kandian.wkandian.com/v5/article/info.json",
+      "target": "zqwz4.js",
+      "enable": true,
+      "stage": "res"
+    },
+    {
+      "match": "https://kandian.wkandian.com/v5/article/detail.json",
+      "target": "zqwz4.js",
+      "enable": true,
+      "stage": "res"
+    },
+    {
+      "match": "https://kandian.wkandian.com/v5/user/stay.json",
+      "target": "zqwz4.js",
+      "enable": true,
+      "stage": "res"
+    },
+    {
+      "match": "https://kandian.wkandian.com/v5/CommonReward/toGetReward.json",
+      "target": "zqqd4.js",
+      "enable": true,
+      "stage": "res"
+    },
+    {
+      "match": "https://kandian.wkandian.com/v17/NewTask/getTaskList.json",
+      "target": "zq_today_score4.js",
+      "enable": true,
+      "stage": "res"
+    },
+    {
+      "match": "https://kandian.wkandian.com/v5/nameless/adlickstart.json",
+      "target": "zqkkz4.js",
+      "enable": true,
+      "stage": "res"
+    },
+    {
+      "match": "https://kandian.wkandian.com/v5/CommonReward/toGetReward.json",
+      "target": "zqbox4.js",
+      "enable": true,
+      "stage": "res"
+    },
+    {
+      "match": "https://kandian.wkandian.com/v5/wechat/withdraw2.json",
+      "target": "zq_withdraw4.js",
+      "enable": true,
+      "stage": "res"
+    },
+    {
+      "match": "https://kandian.wkandian.com/v5/task/browse_start.json",
+      "target": "zqllz4.js",
+      "enable": true,
+      "stage": "res"
+    },
+    {
+      "match": "https://kandian.wkandian.com/v5/Sousuo/playStart.json",
+      "target": "zqssz4.js",
+      "enable": true,
+      "stage": "res"
+    }
+  ]
+}
