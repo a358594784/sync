@@ -6,7 +6,7 @@
   "type": "task",
   "list": [
     {
-      "name": "晶彩签到",
+      "name": "晶彩签到2",
       "type": "cron",
       "time": "15 2 * * *",
       "running": false,
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "晶彩文章",
+      "name": "晶彩文章2",
       "type": "cron",
       "time": "30 7,12,18 * * *",
       "running": false,
@@ -26,7 +26,7 @@
       }
     },
     {
-      "name": "晶彩看看赚",
+      "name": "晶彩看看赚2",
       "type": "cron",
       "time": "45 9 * * *",
       "running": false,
@@ -36,7 +36,7 @@
       }
     },
     {
-      "name": "晶彩火爆转发",
+      "name": "晶彩火爆转发2",
       "type": "cron",
       "time": "15 6,12,18 * * *",
       "running": false,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "name": "晶彩福利视频",
+      "name": "晶彩福利视频2",
       "type": "cron",
       "time": "20 21 * * *",
       "running": false,
@@ -56,7 +56,7 @@
       }
     },
     {
-      "name": "晶彩每日任务宝箱领取",
+      "name": "晶彩每日任务宝箱领取2",
       "type": "cron",
       "time": "15 22 * * *",
       "running": false,
@@ -66,7 +66,7 @@
       }
     },
     {
-      "name": "晶彩好友签到红包",
+      "name": "晶彩好友签到红包2",
       "type": "cron",
       "time": "15 7 * * *",
       "running": false,
@@ -76,7 +76,7 @@
       }
     },
     {
-      "name": "晶彩抽奖",
+      "name": "晶彩抽奖2",
       "type": "cron",
       "time": "34 22 * * *",
       "running": false,
@@ -86,7 +86,7 @@
       }
     },
     {
-      "name": "晶彩提现",
+      "name": "晶彩提现2",
       "type": "cron",
       "time": "34 10 * * *",
       "running": false,
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "晶彩每日收益统计",
+      "name": "晶彩每日收益统计2",
       "type": "cron",
       "time": "15 23 * * *",
       "running": false,
