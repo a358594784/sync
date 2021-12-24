@@ -1,0 +1,149 @@
+{
+  "name": "zq7",
+  "author": "留个名字",
+  "note": "中青第7账号",
+  "date": "2021-12-23 17:26:23",
+  "type": "task",
+  "list": [
+    {
+      "name": "中青签到7",
+      "type": "cron",
+      "time": "15 2 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zqqd7.js"
+      }
+    },
+    {
+      "name": "中青文章7",
+      "type": "cron",
+      "time": "30 7,18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zqwz7.js"
+      }
+    },
+    {
+      "name": "中青看看赚7",
+      "type": "cron",
+      "time": "45 9 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zqkkz7.js"
+      }
+    },
+    {
+      "name": "中青火爆转发7",
+      "type": "cron",
+      "time": "15 6,12,18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_share7.js"
+      }
+    },
+    {
+      "name": "中青福利视频3",
+      "type": "cron",
+      "time": "20 21 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_Adv_video7.js"
+      }
+    },
+    {
+      "name": "中青每日任务宝箱7",
+      "type": "cron",
+      "time": "15 22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zqbox7.js"
+      }
+    },
+    {
+      "name": "中青每日收益统计7",
+      "type": "cron",
+      "time": "15 23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_today_score7.js"
+      }
+    },
+    {
+      "name": "中青好友签到红包7",
+      "type": "cron",
+      "time": "15 7 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_friendSign7.js"
+      }
+    },
+    {
+      "name": "中青抽奖7",
+      "type": "cron",
+      "time": "34 22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_Rotary7.js"
+      }
+    },
+    {
+      "name": "中青打卡赚7",
+      "type": "cron",
+      "time": "34 5,9 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_wakeup7.js"
+      }
+    },
+    {
+      "name": "中青搜索赚7",
+      "type": "cron",
+      "time": "35 5 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zqssz7.js"
+      }
+    },
+    {
+      "name": "中青浏览赚7",
+      "type": "cron",
+      "time": "34 6 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zqllz7.js"
+      }
+    },
+    {
+      "name": "中青阅读翻倍7",
+      "type": "cron",
+      "time": "34 5 * * 1",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_double7.js"
+      }
+    },
+    {
+      "name": "中青自动提现7",
+      "type": "cron",
+      "time": "25 10 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_withdraw7.js"
+      }
+    }
+  ]
+}
