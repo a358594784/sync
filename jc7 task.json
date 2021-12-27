@@ -1,0 +1,109 @@
+{
+  "name": "第七账号的晶彩 定时任务订阅",
+  "author": "留个名字",
+  "note": "第七账号的晶彩",
+  "date": "2021-12-18 22:27:05",
+  "type": "task",
+  "list": [
+    {
+      "name": "晶彩签到7",
+      "type": "cron",
+      "time": "15 2 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jcqd7.js"
+      }
+    },
+    {
+      "name": "晶彩文章7",
+      "type": "cron",
+      "time": "30 7,12,18 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jcwz7.js"
+      }
+    },
+    {
+      "name": "晶彩看看赚7",
+      "type": "cron",
+      "time": "45 9 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jckkz7.js"
+      }
+    },
+    {
+      "name": "晶彩火爆转发7",
+      "type": "cron",
+      "time": "15 6,12,18 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_share7.js"
+      }
+    },
+    {
+      "name": "晶彩福利视频7",
+      "type": "cron",
+      "time": "20 21 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_Adv_video7.js"
+      }
+    },
+    {
+      "name": "晶彩每日任务宝箱领取7",
+      "type": "cron",
+      "time": "15 22 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jcbox7.js"
+      }
+    },
+    {
+      "name": "晶彩好友签到红包7",
+      "type": "cron",
+      "time": "15 7 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_friendSign7.js"
+      }
+    },
+    {
+      "name": "晶彩抽奖7",
+      "type": "cron",
+      "time": "34 22 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_Rotary7.js"
+      }
+    },
+    {
+      "name": "晶彩提现7",
+      "type": "cron",
+      "time": "34 10 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_withdraw7.js"
+      }
+    },
+    {
+      "name": "晶彩每日收益统计7",
+      "type": "cron",
+      "time": "15 23 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_today_score7.js"
+      }
+    }
+  ]
+}

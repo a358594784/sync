@@ -1,0 +1,59 @@
+{
+  "name": "晶彩第7账号",
+  "author": "留个名字 elecV2",
+  "note": "xx 导出的重写规则。该订阅目前仅适用于 elecV2P。更多说明请查看: https://github.com/elecV2/elecV2P-dei/tree/master/docs/05-rewrite.md",
+  "date": "2021-12-18 22:08:09",
+  "type": "rewrite",
+  "resource": "订阅更新远程链接（待填写",
+  "mitmhost": [],
+  "list": [
+    {
+      "match": "https://ant.xunsl.com/v5/article/info7.json",
+      "stage": "res",
+      "target": "jcwz7.js",
+      "enable": true
+    },
+    {
+      "match": "https://ant.xunsl.com/v5/article/detail7.json",
+      "stage": "res",
+      "target": "jcwz7.js",
+      "enable": true
+    },
+    {
+      "match": "https://ant.xunsl.com/v5/nameless/adlickstart7.json",
+      "stage": "res",
+      "target": "jckkz7.js",
+      "enable": true
+    },
+    {
+      "match": "https://ant.xunsl.com/v5/CommonReward/toGetReward7.json",
+      "stage": "res",
+      "target": "jcqd7.js",
+      "enable": true
+    },
+    {
+      "match": "https://ant.xunsl.com/v5/CommonReward/toGetReward7.json",
+      "stage": "res",
+      "target": "jcbox7.js",
+      "enable": true
+    },
+    {
+      "match": "https://ant.xunsl.com/v5/user/stay7.json",
+      "stage": "res",
+      "target": "jcwz7.js",
+      "enable": true
+    },
+    {
+      "match": "https://ant.xunsl.com/v5/wechat/withdraw27.json",
+      "stage": "res",
+      "target": "jc_withdraw7.js",
+      "enable": true
+    },
+    {
+      "match": "https://ant.xunsl.com/v17/NewTask/getTaskList7.json",
+      "stage": "res",
+      "target": "jc_today_score7.js",
+      "enable": true
+    }
+  ]
+}
